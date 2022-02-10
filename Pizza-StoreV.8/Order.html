@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+	<div></div>
+<head>
+<meta charset="UTF-8">
+<title>Order - Pizza</title>
+	<script src="StoreJS.js" async></script>
+<link href="Level2Web.css" rel="stylesheet" type="text/css">
+	
+	<div class="header2">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Index.html">Home</a>
+  <a href="instore.html">In-Store Menu</a>
+  <a href="Order.html">Order Online</a>
+  <a href="About.html">Contact</a>
+</div>
+		
+</head>
+
+	<body>
+
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><div class="sidebutton" style="padding-left: 10px;border-top-width: 0px;padding-top: 0px;">
+        <span class="fas fa-bars"><h2 style="margin-bottom: 0px; margin-top: 0px; padding-right: 30px; padding-bottom: 0px;">≡</h2></span>
+      </div></span>
+		</div>
+
+	  <br>
+	  
+
+      <section class="container content-section"> <!---- this makes a container for the first heading.----->
+<h1>Pizza Place</h1>
+		</section>
+        <section class="container content-section"><!----- container for the value range ----->
+            <h2 class="section-header">Value Range</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Hawaiian Pizza</span>
+                    <img src="img/NZ_P005DA_en_menu_8390.png" width="303" class="shop-item-image">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> <!----- this makes a button to add to cart but also a call the the code listed under "btn btn-primary shop...." so then it can actually do the function that it needs ----->
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Cheese Pizza</span> <!----- this makes a class call so then the title can added through the JS into the cart ---->
+                    <img class="shop-item-image" width="303" src="img/NZ_P015_en_menu_4048.jpg"> <!------- this makes it so then the image can be added to the cart with js ---->
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Bacon Avocado Pizza</span>
+                    <img class="shop-item-image" width="303" src="img/NZ_P376_en_menu_4048.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Meat Lovers</span>
+                    <img class="shop-item-image" width="303" src="img/NZ_P385_en_menu_4048.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span> <!----- this makes the price available for the js so then it can be added to the cart ----->
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Gourmet Pizzas</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Jalapeno and Meat</span>
+                    <img class="shop-item-image" width="303" src="img/NZ_P401_en_menu_8029.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken and Mayo</span>
+                    <img class="shop-item-image" width="303" src="img/NZ_P421_en_menu_8142.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">Mega Meatlovers</span>
+                    <img src="img/NZ_P432_en_menu_8523.png" width="303" class="shop-item-image">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section class="container content-section"> <!---- this makes a section for the cart ---->
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span> <!---- this makes a coloum for the items to be added ---->
+                <span class="cart-price cart-header cart-column">PRICE</span><!---- this makes a coloum for the price to be added ---->
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span><!---- this makes a coloum for the quantity of items to be added ---->
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+			<input type="tel" name="myInput" placeholder="Phone Number Here" size="20" required><!----- this makes a input field for the users "phone number" ---->
+			<input type="email" name="myInput" placeholder="Your Address Here" size="30" required>	
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> <!---- this makes a biutton to comfirm the purchase and then it calls to the js so then it can alert and tell the user something ---->
+        </section> <!----- this ends the section ---->
+<body>
+	<br>
+    <div class="footer-basic"> <!---- this calls to the "footer basic" in the CSS to grab the styling ---->
+        <footer>
+            <ul class="list-inline"> <!----- this makes a list for the links to come. ---->
+         <li class="list-inline-item"><a href="Index.html">Home</a></li>
+                <li class="list-inline-item"><a href="Order.html">Order</a></li>
+          <li class="list-inline-item"><a href="About.html">About</a></li>
+            </ul>
+            <p class="copyright">Matthew Mosley-O'leary © 2021</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+	</body>
+</html>
