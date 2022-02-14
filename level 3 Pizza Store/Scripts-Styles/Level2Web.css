@@ -192,7 +192,7 @@ h4 {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
+    background-image: url("../Images/Header Background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -428,7 +428,7 @@ align-content: center;
 align-items: center;
 }
 body {
-	background: #fff url("img/HomeBackground.jpeg") ;
+	background: #fff url("../img/pizza-spin.mp4") ;
 	margin: 0;
 }
 mark {
@@ -526,4 +526,15 @@ padding-top: 2px;
   text-align: center;
     background-color: #7F000000;
 	 background: rgba(0, 0, 0, 0.5);
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
