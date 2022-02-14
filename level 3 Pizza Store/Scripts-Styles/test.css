@@ -1,0 +1,37 @@
+/* CSS Document */
+
+.product {
+				width:200px;
+				height:200px;
+				font-size: 10px;
+				font-family: 'Arial';
+				margin-bottom: 8px;
+				padding-top: 8px;
+			}
+			.container .product span {
+				text-transform: uppercase;
+				font-size: 8px;
+				font-family: 'Arial';
+				color: #ccc;
+				display:inline-block;
+				transform: translateY(-16px);
+			}
+			.add-to-cart {
+				margin-right: 8px;
+			}
+			.container {
+				display: inline-block;
+				margin: 24px;
+				text-align: center;
+				//background-color: #e5e5e5;
+			}
+
+			.container span.add-to-cart, .container span.add-to-wish {
+				font-size: 10px;
+				font-family: 'Arial';
+				font-weight: 800;
+				color: #666;
+				padding-bottom: 12px;
+				display: inline-block;
+				cursor: pointer;
+			}
