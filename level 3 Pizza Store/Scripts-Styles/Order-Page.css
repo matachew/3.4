@@ -8,6 +8,8 @@
   padding: 30px;
 	border-bottom: thin;
 	border-color: aqua;
+	  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
 }
 
 /* Style the header links */
@@ -428,10 +430,6 @@ img {
 align-content: center;
 align-items: center;
 }
-body {
-	background: #fff url("../img/pizza-spin.mp4") ;
-	margin: 0;
-}
 mark {
   background-color: whitesmoke;
 
@@ -538,4 +536,9 @@ padding-top: 2px;
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+body {
+ background-image: url("../img/final-background.jpeg");
+ background-color: #cccccc;
+  background-repeat: no-repeat;
 }
