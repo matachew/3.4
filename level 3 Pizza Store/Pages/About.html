@@ -3,60 +3,148 @@
 
 	<div></div>
 <head>
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
 <meta charset="UTF-8">
-<title>About - Da Pizza</title>
-<link href="../Scripts-Styles/Level2Web.css" rel="stylesheet" type="text/css"> <!----- this links my style sheet to this part of the website ---->
-<style type="text/css">
-</style>
+<title>About us - Jackob;s</title>
+	<script src="../Scripts-Styles/StoreJS.js" async></script>
+<link href="../Scripts-Styles/About-Us.css" rel="stylesheet" type="text/css">
+<link href="../Scripts-Styles/Footer.css" rel="stylesheet" type="text/css">
+<div class="header2">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Index.html">Home</a>
+  <a href="instore.html">In-Store Menu</a>
+  <a href="Order.html">Order Online</a>
+  <a href="About.html">Contact</a>
+</div>
+	</div>
 </head>
 
-	<body>
-	<div class="header">
-	<a href="Index.html">
-		<img src="../img/Pizza-Logo.png" width="71px"></a>
-  <div class="header-right">
-    <a  href="Index.html">Home</a>
-    <a  href="Order.html">Order</a>
-    <a class="active" href="About.html">About</a>
+
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><div class="sidebutton" style="padding-left: 10px;border-top-width: 0px;padding-top: 0px;">
+        <span class="fas fa-bars"><h2 style="margin-bottom: 0px; margin-top: 0px; padding-right: 30px; padding-bottom: 0px;">≡</h2></span>
+      </div></span>
+
 	  <br>
 	  
-  </div>
-  </div>
-  <div class="container">
- <h1><strong>About Us</strong></h1>
-<h2>Classic comfort food & milkshakes served in a down-to-earth pizza parlour that has green decor.</h2>
-		<hr size="10">
-		<h2>Our Location:</h2>
-	  <!----- this is an API that gooogle made that allows me to be able to embed a google map into my site ---->
-		<p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9512.904339448443!2d-2.277462!3d53.4107827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1801067e08bd2d1!2sShrek&#39;s%20Pizza!5e0!3m2!1sen!2snz!4v1627206905885!5m2!1sen!2snz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
-		<h2>Contact Us</h2>
-		<p align="center">
-		<input type="name" name="myInput" placeholder="Your Name" size="30" required>
-		<br> <!---- these are breaks that basically just make new lines ---->
-		<input type="email" name="myInput" placeholder="your@email.com" size="30" required>
-		<br>
-		<input type="tel" name="myInput" placeholder="Phone Number" size="15" required>
-		<br>
-		<input type="text" name="myInput" placeholder="Your Questions here" size="60" required>
-		</p>
-		</div>
-<body>
-	<br>
-		<br>
-		<br>
-		<br>
-    <div class="footer-basic">
-        <footer>
-            <ul class="list-inline">
-         <li class="list-inline-item"><a href="Index.html">Home</a></li>
-                <li class="list-inline-item"><a href="Order.html">Order</a></li>
-          <li class="list-inline-item"><a href="About.html">About</a></li>
-            </ul>
-            <p class="copyright">Matthew Mosley-O'leary © 2021</p>
-        </footer>
-    </div>
+
+      <section > <!---- this makes a container for the first heading.----->
+<img src="../img/finalisedback.png" width="200px" class="imgborder" alt="banner" style="margin-bottom: 30px" >
+		</section>
+	
+	
+	<h1>Our Locations</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.225907195816!2d-2.279650684470305!3d53.410785877584026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bad76133affff%3A0xf1801067e08bd2d1!2sShrek&#39;s%20Pizza!5e0!3m2!1sen!2snz!4v1645740974569!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="center"></iframe>
+	
+	<body>
+		<div class="container" style="height: 700px;">
+	<div class="row">
+			<h1>contact us</h1>
+	</div>
+	<div class="row">
+			<h4 style="text-align:center">We'd love to hear from you!</h4>
+	</div>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Phone Number</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Send Message</div>
+			</div>
+	</div>
+</div>
+	</body>
+	
+	
+		<body style="margin: 0px;padding-top: 0px;">
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Jackob's<span>Pizzeria</span></h3>
+
+				<p class="footer-links">
+					<a href="Index.html">Home</a>
+					·
+					<a href="Order.html">Order Online</a>
+					·
+					<a href="instore.html">In-Store</a>
+					·
+					<a href="About.html">About</a>
+	
+				</p>
+
+				<p class="footer-company-name">Matthew MO &copy; 2022</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>
+sannagatan 29 681 50 Kristinehamn</span> Sweden</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+64 22 538 8926 </p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@jackobspizza.com">contact@jackobspizzeria.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Jackob's Pizzeria is a family owned pizzeria that is dedicated to serving pizza that makes gits go back to the repository.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="facebook.com"><i class="fa fa-facebook"></i></a>
+					<a href="twitter.com"><i class="fa fa-twitter"></i></a>
+					<a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+					<a href="github.com/matachew"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</body>
+	
+	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
+
 
 </html>

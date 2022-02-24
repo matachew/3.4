@@ -8,6 +8,8 @@
 <title>Order - Pizza</title>
 	<script src="../Scripts-Styles/StoreJS.js" async></script>
 <link href="../Scripts-Styles/Order-Page.css" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<link href="../Scripts-Styles/Footer.css" rel="stylesheet" type="text/css">
 	
 	<div class="header2">
 <div id="mySidenav" class="sidenav">
@@ -20,7 +22,7 @@
 	</div>
 </head>
 
-	<body>
+	<body style="margin: 0px;">
 
 
 <!-- Use any element to open the sidenav -->
@@ -117,20 +119,68 @@
 			<input type="email" name="myInput" placeholder="Your Address Here" size="30" required>	
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> <!---- this makes a biutton to comfirm the purchase and then it calls to the js so then it can alert and tell the user something ---->
         </section> <!----- this ends the section ---->
-<body>
-	<br>
-    <div class="footer-basic"> <!---- this calls to the "footer basic" in the CSS to grab the styling ---->
-        <footer>
-            <ul class="list-inline"> <!----- this makes a list for the links to come. ---->
-         <li class="list-inline-item"><a href="Index.html">Home</a></li>
-                <li class="list-inline-item"><a href="Order.html">Order</a></li>
-          <li class="list-inline-item"><a href="About.html">About</a></li>
-            </ul>
-            <p class="copyright">Matthew Mosley-O'leary © 2021</p>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
+	
+	<body style="margin: 0px;">
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Jackob's<span>Pizzeria</span></h3>
+
+				<p class="footer-links">
+					<a href="Index.html">Home</a>
+					·
+					<a href="Order.html">Order Online</a>
+					·
+					<a href="instore.html">In-Store</a>
+					·
+					<a href="About.html">About</a>
+	
+				</p>
+
+				<p class="footer-company-name">Matthew MO &copy; 2022</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>
+sannagatan 29 681 50 Kristinehamn</span> Sweden</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+64 22 538 8926 </p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@jackobspizza.com">contact@jackobspizzeria.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Jackob's Pizzeria is a family owned pizzeria that is dedicated to serving pizza that makes gits go back to the repository.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="facebook.com"><i class="fa fa-facebook"></i></a>
+					<a href="twitter.com"><i class="fa fa-twitter"></i></a>
+					<a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+					<a href="github.com/matachew"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</body>
 	</body>
 </html>
